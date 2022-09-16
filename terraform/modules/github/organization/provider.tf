@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     github = {
-      source  = "integrations/github"
+      source  =   "integrations/github"
       version = "4.31.0"
     }
   }
@@ -9,5 +9,5 @@ terraform {
 
 provider "github" {
   token = var.gh_token
-  owner = "Shaddar91"
+  owner =   "Shaddar91"
 }

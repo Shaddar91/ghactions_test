@@ -20,10 +20,10 @@ resource "github_project_card" "card" {
 
 resource "github_repository" "main" {
   name         = var.project_name
-  description = var.project_description
-  auto_init  = true
+  description  = var.project_description
+  auto_init    = true
   # private = false
-  visibility = var.repo_type[var.choose_type]
+  visibility   = var.repo_type[var.choose_type]
   # pages {
   #   source {
   #     branch = var.branch
